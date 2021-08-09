@@ -72,13 +72,6 @@ All data was acquired Siemens Trio with VB17. Images are listed by series number
   * Compression command: `gdcmconv --j2k 9a.dcm 9.dcm`
   * Notes: dcm2niix will decompress this using [OpenJPEG](https://www.openjpeg.org)
 
-* `26j2k90.dcm`
-  * Transfer Syntax: 1.2.840.10008.1.2.4.90
-  * Compression: JPEG 2000 Image Compression (Lossless Only)
-  * Compressed using: [dcmcjp2k](http://support.dcmtk.org/docs-products/dcmcjp2k.html)
-  * Compression command: `dcmcjp2k 26.dcm 26j2k90.dcm`
-  * Notes: dcm2niix will decompress this using [OpenJPEG](https://www.openjpeg.org)
-
 ## Links
 
  * These images are identical to those at [dcm_qa](https://github.com/neurolabusc/dcm_qa) with the exception of the conversion to various transfer syntaxes.
